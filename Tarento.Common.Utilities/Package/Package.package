@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="27750bef-ab36-45e0-9497-f9ba7058ad4c" 
+        solutionId="27750bef-ab36-45e0-9497-f9ba7058ad4c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Tarento.Common.Utilities"
+        sharePointProductVersion="15.0">
+</package>

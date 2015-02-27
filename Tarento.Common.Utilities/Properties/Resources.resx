@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedDefaultDiagnosticsAreaToCollection" xml:space="preserve">
+    <value>The default area can not be added to the configured areas collection.</value>
+  </data>
+  <data name="ArgumentMustBeBoolean" xml:space="preserve">
+    <value>The argument '{0}' must be a boolean.</value>
+  </data>
+  <data name="ArgumentMustBeDateTime" xml:space="preserve">
+    <value>The argument '{0}' must be a datetime.</value>
+  </data>
+  <data name="ArgumentMustBeGuid" xml:space="preserve">
+    <value>The argument '{0}' must be a guid.</value>
+  </data>
+  <data name="ArgumentMustBeNumber" xml:space="preserve">
+    <value>The argument '{0}' must be a number.</value>
+  </data>
+  <data name="ArgumentMustBeNumeric" xml:space="preserve">
+    <value>The argument '{0}' must be numeric.</value>
+  </data>
+  <data name="ArgumentMustNotBeEmpty" xml:space="preserve">
+    <value>The argument '{0}' must not be empty or null.</value>
+  </data>
+  <data name="AttemptToCacheNullReference" xml:space="preserve">
+    <value>Attempt to cache a null reference</value>
+  </data>
+  <data name="CategoryNotFoundExceptionMessage" xml:space="preserve">
+    <value>The Category '{0}' was not found in the diagnostic categories collections.</value>
+  </data>
+  <data name="ConfigSettingNotSet" xml:space="preserve">
+    <value>Configsetting with key '{0}' could not be set '{1}' with type '{2}'. The technical exception was: {3}: {4}</value>
+  </data>
+  <data name="DiagnosticsAreaCollectionAreaExists" xml:space="preserve">
+    <value>The area being added already exists \n\t Value: '{0}'</value>
+  </data>
+  <data name="DiagnosticsAreaCollectionSaveWithNoConfig" xml:space="preserve">
+    <value>Attempted to save areas configuration without setting configuration manager</value>
+  </data>
+  <data name="DiagnosticsCategoryExists" xml:space="preserve">
+    <value>The DiagnosticsCategory exists, only one entry for a category per area. Value: '{0}'</value>
+  </data>
+  <data name="ErrorWritingTrace" xml:space="preserve">
+    <value>An error occurred while writing tot the Trace Log, trace message:{0}</value>
+  </data>
+  <data name="ExceptionHandlerAdditionalInformation" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="ExceptionHandlerHideDetails" xml:space="preserve">
+    <value>Hide Details</value>
+  </data>
+  <data name="ExceptionHandlerShowDetails" xml:space="preserve">
+    <value>Show Details</value>
+  </data>
+  <data name="ExceptionHandlerTitle" xml:space="preserve">
+    <value>An error occurred in processing. If the problem persists, please contact help desk for assistance.</value>
+  </data>
+  <data name="FailedDeserialization" xml:space="preserve">
+    <value>Failed deserializing key:'{0}', serialized data: '{1}'</value>
+  </data>
+  <data name="InvalidCategoryFormat" xml:space="preserve">
+    <value>The category name should be formatted as a path (area/category), invalid format: {0}</value>
+  </data>
+  <data name="InvalidConfigSetting" xml:space="preserve">
+    <value>Config setting with key '{0}' could not be retrieved. The configured value could not be converted from '{1}' to an instance of '{2}'. The technical exception was: {3}: {4}</value>
+  </data>
+  <data name="InvalidKeyLength" xml:space="preserve">
+    <value>Key '{0}' must be between 1 and '{1}' in length.  Key Length: '{2}'.</value>
+  </data>
+  <data name="InvalidKeyPrefix" xml:space="preserve">
+    <value>The key '{0}' cannot be used. Key's may not be prefixed with the text '{1}'.</value>
+  </data>
+  <data name="InvalidKeySuffix" xml:space="preserve">
+    <value>The key '{0}' cannot be used. Key's may not be suffixed with the text '{1}' because this is used by the SPSitePropertyBag to differentiate between properties of the SPWeb and the SPSite.</value>
+  </data>
+  <data name="KeyNotConfigured" xml:space="preserve">
+    <value>There was no value configured for key '{0}' in a propertyBag.</value>
+  </data>
+  <data name="LoggingExceptionMessage1" xml:space="preserve">
+    <value>One or more errors occurred while writing messages into the log.</value>
+  </data>
+  <data name="LoggingExceptionMessage2" xml:space="preserve">
+    <value>\r\nThe error while writing to the EventLog was:</value>
+  </data>
+  <data name="LoggingExceptionMessage3" xml:space="preserve">
+    <value>\r\n Orginal logged message was:</value>
+  </data>
+  <data name="MissingSettingExceptionMessage" xml:space="preserve">
+    <value>&amp;lt;br /&amp;gt;{0}{1}. Open the tool pane to configure Web Part properties.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</value>
+  </data>
+  <data name="MissingSettingExceptionTitle" xml:space="preserve">
+    <value>Missing required setting</value>
+  </data>
+  <data name="NotConfiguredExceptionId" xml:space="preserve">
+    <value>&amp;lt;br /&amp;gt;The Web Part has not been configured correctly{0}. &amp;lt;a href=\"javascript:MSOTlPn_ShowToolPane2Wrapper('Edit','129','{1}')\"&amp;gt;Open the tool pane&amp;lt;/a&amp;gt; to configure Web Part properties.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</value>
+  </data>
+  <data name="NotConfiguredExceptionNoId" xml:space="preserve">
+    <value>&amp;lt;br /&amp;gt;The Web Part has not been configured correctly{0}. Open the tool pane to configure Web Part properties.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</value>
+  </data>
+  <data name="PropertyBagNotValidForContext" xml:space="preserve">
+    <value>The property bag for level '{0}' is not accessible in the current context.</value>
+  </data>
+  <data name="SPFarmNotFound" xml:space="preserve">
+    <value>SPFarm was not found.</value>
+  </data>
+  <data name="StringIndexOutOfRange" xml:space="preserve">
+    <value>The index value is not found in the collection: Collection '{0}' Value '{1}'</value>
+  </data>
+  <data name="TypesAreNotAssignable" xml:space="preserve">
+    <value>The type {1} cannot be assigned to variables of type {0}.</value>
+  </data>
+  <data name="ValueSetInConfig" xml:space="preserve">
+    <value>Set value in hierarchical config.\n\tKey: '{0}'\n\tLevel: '{1}'\n\tValue: '{2}'</value>
+  </data>
+</root>

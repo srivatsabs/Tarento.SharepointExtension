@@ -42,7 +42,7 @@ namespace SharepointExtensionProject
                         }
                         else
                         {
-                            //No List exist
+                            //No List exist in the site
                         }
                     }
                 }
